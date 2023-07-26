@@ -36,10 +36,10 @@
 
 <body class="font-lato">
     <header>
-        <nav class="lg:px-40 ">
-
-
-            <div class="navbar bg-primary grid grid-cols-1 lg:grid-cols-3  lg:flex-row justify-between lg:px-5 py-4 text-white items-center rounded-full my-10">
+        <!-- navbar start from here -->
+        <nav class="lg:px-40">
+            <div
+                class="navbar bg-white lg:bg-primary grid grid-cols-1 lg:grid-cols-3  lg:flex-row justify-between lg:px-5 py-4 lg:text-white items-center lg:rounded-full lg:my-10">
 
                 <div class="hidden lg:flex justify-start">
                     <ul class="menu menu-horizontal px-1">
@@ -59,7 +59,7 @@
                             </svg>
                         </label>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 -left-40 z-[1] p-2 shadow bg-base-100 rounded-box text-center">
+                            class="menu menu-sm dropdown-content mt-3 right-10 z-[1] p-2 shadow bg-base-100 rounded-box text-center">
                             <li><a>Home</a></li>
                             <li><a>About Us</a></li>
                             <li><a>Shop</a></li>
@@ -67,7 +67,7 @@
                             <li>
                                 <div class="flex mt-2 lg:block">
                                     <input type="text" placeholder="Search here"
-                                        class="input input-bordered md:w-auto bg-white text-black" />
+                                        class="input input-bordered md:w-auto bg-white text-black rounded-full" />
                                     <i class="fa-solid fa-magnifying-glass text-xl -ml-8 text-black"></i>
                                 </div>
                             </li>
@@ -80,13 +80,83 @@
                     </a>
                 </div>
                 <div class="hidden lg:flex justify-end pr-5">
-                    <input type="text" placeholder="Search here" class="input input-bordered md:w-auto bg-white  text-black rounded-full" />
+                    <input type="text" placeholder="Search here"
+                        class="input input-bordered w-[70%] bg-white  text-black rounded-full" />
                     <i class="fa-solid fa-magnifying-glass text-xl -ml-8 text-black"></i>
                 </div>
 
 
             </div>
         </nav>
+        <!-- banner/slider section from here -->
+        <section class="lg:px-40">
+            <div class="carousel w-full ">
+                <div id="slide1" class="carousel-item relative w-full ">
+                    <div class="bg-no-repeat bg-cover w-screen flex justify-center items-center lg:rounded-lg"
+                        style="background-image: url(./images/banner1.png);">
+                        <div class="text-center text-white space-y-6 py-5 lg:py-40">
+                            <h1 class="text-7xl font-extrabold">
+                                Exotic tastes at your <br>doorstep
+                            </h1>
+                            <p class="text-xl font-medium">We supply highly quality organic products</p>
+                            <button class="btn bg-primary text-white">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="bg-no-repeat bg-cover w-screen flex justify-center items-center lg:rounded-lg"
+                    style="background-image: url(./images/banner1.png);">
+                    <div class="text-center text-white space-y-6 py-5 lg:py-40">
+                        <h1 class="text-7xl font-extrabold">
+                            Exotic tastes at your <br>doorstep
+                        </h1>
+                        <p class="text-xl font-medium">We supply highly quality organic products</p>
+                        <button class="btn bg-primary text-white">Shop Now</button>
+                    </div>
+                </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <div class="bg-no-repeat bg-cover w-screen flex justify-center items-center lg:rounded-lg"
+                    style="background-image: url(./images/banner1.png);">
+                    <div class="text-center text-white space-y-6 py-5 lg:py-40">
+                        <h1 class="text-7xl font-extrabold">
+                            Exotic tastes at your <br>doorstep
+                        </h1>
+                        <p class="text-xl font-medium">We supply highly quality organic products</p>
+                        <button class="btn bg-primary text-white">Shop Now</button>
+                    </div>
+                </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <div class="bg-no-repeat bg-cover w-screen flex justify-center items-center lg:rounded-lg"
+                        style="background-image: url(./images/banner1.png);">
+                        <div class="text-center text-white space-y-6 py-5 lg:py-40">
+                            <h1 class="text-7xl font-extrabold">
+                                Exotic tastes at your <br>doorstep
+                            </h1>
+                            <p class="text-xl font-medium">We supply highly quality organic products</p>
+                            <button class="btn bg-primary text-white">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
     <main>
 
