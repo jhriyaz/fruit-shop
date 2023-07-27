@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Buy Fresh Fruits With a click</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <!-- tailwinf and daisyui code -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -92,8 +93,7 @@
         <section class="lg:px-40">
             <div class="carousel w-full ">
                 <div id="slide1" class="carousel-item relative w-full ">
-                    <div class="bg-no-repeat bg-cover w-screen flex justify-center items-center lg:rounded-lg"
-                        style="background-image: url(./images/banner1.png);">
+                    <div class="bg-no-repeat bg-cover w-screen flex justify-center items-center lg:rounded-lg bg-[url('./images/banner1.png')]">
                         <div class="text-center text-white space-y-6 py-5 lg:py-40">
                             <h1 class="text-7xl font-extrabold">
                                 Exotic tastes at your <br>doorstep
@@ -108,8 +108,7 @@
                     </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
-                    <div class="bg-no-repeat bg-cover w-screen flex justify-center items-center lg:rounded-lg"
-                        style="background-image: url(./images/banner2.png);">
+                    <div class="bg-no-repeat bg-cover w-screen flex justify-center items-center lg:rounded-lg bg-[url('./images/banner2.png')]">
                         <div class="text-center text-white space-y-6 py-5 lg:py-40">
                             <h1 class="text-7xl font-extrabold">
                                 Exotic tastes at your <br>doorstep
@@ -124,8 +123,7 @@
                     </div>
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
-                    <div class="bg-no-repeat bg-cover w-screen flex justify-center items-center lg:rounded-lg"
-                        style="background-image: url(./images/banner3.png);">
+                    <div class="bg-no-repeat bg-cover w-screen flex justify-center items-center lg:rounded-lg bg-[url('./images/banner3.png')]">
                         <div class="text-center text-white space-y-6 py-5 lg:py-40">
                             <h1 class="text-7xl font-extrabold">
                                 Exotic tastes at your <br>doorstep
@@ -140,8 +138,7 @@
                     </div>
                 </div>
                 <div id="slide4" class="carousel-item relative w-full">
-                    <div class="bg-no-repeat bg-cover w-screen flex justify-center items-center lg:rounded-lg"
-                        style="background-image: url(./images/banner4.png);">
+                    <div class="bg-no-repeat bg-cover w-screen flex justify-center items-center lg:rounded-lg bg-[url('./images/banner4.png')]">
                         <div class="text-center text-white space-y-6 py-5 lg:py-40">
                             <h1 class="text-7xl font-extrabold">
                                 Exotic tastes at your <br>doorstep
@@ -191,7 +188,7 @@
     <main class="bg-white">
         <!-- deal of the day section -->
         <section class="text-black lg:px-40 space-y-6 lg:mt-5">
-            <div class="flex flex-col lg:flex-row justify-between items-center p-4 lg:p-0">
+            <div class="flex flex-col lg:flex-row justify-between items-center gap-5 lg:gap-0 p-4 lg:p-0">
                 <div class=" space-y-4">
                     <h2 class="text-5xl font-extrabold text-center lg:text-left">Deal of the day</h2>
                     <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical
@@ -468,6 +465,56 @@
             </button>
            </div>
         </section>
+        <!-- team member section -->
+<section class="lg:px-40">
+<div class="container bg-cover bg-no-repeat bg-center rounded-lg text-center text-white space-y-6 bg-[linear-gradient(to_right_bottom,rgba(49,84,44,0.8),rgba(16,71,52,0.8)),url('./images/team.png')] p-2 lg:p-40  bg-blend-normal ">
+    <h2 class="text-5xl">Meet the team section</h2>
+    <p class="text-xs">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+
+    <div class="grid grid-cols-2 lg:grid-cols-4 py-9 gap-5 lg:gap-32 lg:px-40">
+        <div class="flex flex-col items-center justify-center space-y-1">
+            <img class="w-[80%]" src="./images/member1.png" alt="team member 1">
+            <h3 class="text-xl pt-6">Awlad Hossain</h3>
+            <p>Fruits Expert</p>
+            <div class="flex justify-around gap-2">
+                <i class="fa-brands fa-facebook-f text-sm bg-primary rounded-full p-1"></i>
+                <i class="fa-brands fa-twitter text-sm  bg-primary rounded-full p-1"></i>
+                <i class="fa-brands fa-linkedin-in text-sm bg-primary rounded-full p-1"></i>
+            </div>
+        </div>
+        <div class="flex flex-col items-center justify-center space-y-1">
+            <img class="w-[80%]" src="./images/member2.png" alt="team member 1">
+            <h3 class="text-xl pt-6">Safia Chowdhury</h3>
+            <p>Fruits Expert</p>
+            <div class="flex justify-around gap-2">
+                <i class="fa-brands fa-facebook-f text-sm bg-primary rounded-full p-1"></i>
+                <i class="fa-brands fa-twitter text-sm  bg-primary rounded-full p-1"></i>
+                <i class="fa-brands fa-linkedin-in text-sm bg-primary rounded-full p-1"></i>
+            </div>
+        </div>
+        <div class="flex flex-col items-center justify-center space-y-1">
+            <img class="w-[80%]" src="./images/member3.png" alt="team member 1">
+            <h3 class="text-xl pt-6">Rokib Hossain</h3>
+            <p>Fruits Expert</p>
+            <div class="flex justify-around gap-2">
+                <i class="fa-brands fa-facebook-f text-sm bg-primary rounded-full p-1"></i>
+                <i class="fa-brands fa-twitter text-sm  bg-primary rounded-full p-1"></i>
+                <i class="fa-brands fa-linkedin-in text-sm bg-primary rounded-full p-1"></i>
+            </div>
+        </div>
+        <div class="flex flex-col items-center justify-center space-y-1">
+            <img class="w-[80%]" src="./images/member4.png" alt="team member 1">
+            <h3 class="text-xl pt-6">Chaity</h3>
+            <p>Fruits Expert</p>
+            <div class="flex justify-around gap-2">
+                <i class="fa-brands fa-facebook-f text-sm bg-primary rounded-full p-1"></i>
+                <i class="fa-brands fa-twitter text-sm  bg-primary rounded-full p-1"></i>
+                <i class="fa-brands fa-linkedin-in text-sm bg-primary rounded-full p-1"></i>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
 
     </main>
     <footer>
